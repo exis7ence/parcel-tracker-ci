@@ -3,6 +3,7 @@ name: parcel-tracker-ci
 on:
   push:
     branches: [ "main", "feature/ci-cd" ]
+    tags: [ "v*" ]
   pull_request:
     branches: [ "main" ]
 
